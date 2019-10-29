@@ -7,4 +7,4 @@ chache: pip
 
 install: 'pip install -r requirements.txt'
 
-scripts: python test_calculator.py
+scripts: pytest test_calculator.py
