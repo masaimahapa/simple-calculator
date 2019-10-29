@@ -29,5 +29,5 @@ def test_add_string_int():
 def multiply_string_with_number():
     with pytest.raises(TypeError) as err:
         multiply('MOON', 2)
-    assert 'OSError' in str(err.value)
+    assert 'TypeError' in str(err.value)
 
