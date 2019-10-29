@@ -6,7 +6,7 @@ python:
 chache: pip
 
 install: 
-  -'pip install -r requirements.txt'
+  - pip install -r requirements.txt
   - pip install pytest-cov codecov
 
 script: pytest --cov= ./
