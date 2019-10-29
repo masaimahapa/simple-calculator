@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.com/masaimahapa/simple-calculator.svg?branch=master)](https://travis-ci.com/masaimahapa/simple-calculator))
+
 Simple Calculator
+
 
 This was as part of introduction to Test Drive Development.
 
