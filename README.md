@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/masaimahapa/simple-calculator.svg?branch=master)](https://travis-ci.com/masaimahapa/simple-calculator)
+[![codecov](https://codecov.io/gh/masaimahapa/simple-calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/masaimahapa/simple-calculator)
 
 Simple Calculator
 
