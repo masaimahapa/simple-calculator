@@ -8,6 +8,7 @@ chache: pip
 install: 
   - pip install -r requirements.txt
   - pip install pytest-cov codecov
+  - pip install codecov
 
 script: pytest --cov= ./
 
