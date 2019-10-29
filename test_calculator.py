@@ -1,5 +1,6 @@
 from calculator import add, multiply
 import pytest
+import calculator
 
 def test_add_two_numbers():
     assert add(0, 0)== 0
