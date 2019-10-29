@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/masaimahapa/simple-calculator.svg?branch=master)](https://travis-ci.com/masaimahapa/simple-calculator))
+[![Build Status](https://travis-ci.com/masaimahapa/simple-calculator.svg?branch=master)](https://travis-ci.com/masaimahapa/simple-calculator)
 
 Simple Calculator
 
