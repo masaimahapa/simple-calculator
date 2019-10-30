@@ -10,7 +10,7 @@ install:
   - pip install pytest-cov codecov
   - pip install codecov
 
-script: pytest --cov= calculator.py test_calculator.py
+script: pytest --cov= calculator test_calculator.py
 
 after_success:
   - codecov
