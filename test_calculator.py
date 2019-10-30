@@ -1,6 +1,5 @@
 from calculator import add, multiply
 import pytest
-import calculator
 
 def test_add_two_numbers():
     assert add(0, 0)== 0
@@ -28,7 +27,7 @@ def test_add_string_int():
         add('Funny how it fails', 22)
 
 def multiply_string_with_number():
-    with pytest.raises(TypeError) as err:
-        multiply('MOON', 2)
-    assert 'TypeError' in str(err.value)
+    with pytest.raises(TypeError):
+        multiply(2, 'Moon', 3)
+    #assert 'TypeError' in str(err.value)
 

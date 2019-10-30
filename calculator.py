@@ -3,7 +3,7 @@ def add(*args):
         try:
             int(each)
         except:
-            raise TypeError('You can only add numbers in this digital calculator.')
+            raise TypeError(f'You can only add numbers in this digital calculator. {each} found.')
     return sum(args)
 
 def multiply(*args):
@@ -12,8 +12,6 @@ def multiply(*args):
         try:
             int(each)  
         except:
-            #print(f'Must be only numbers. {each} found in list.')
             raise TypeError('You can only multiply numbers in this calculator.')
-        
         product *= each
     return product
